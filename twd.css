@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("fotos/ponte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
+main{
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgb(255, 213, 158);
+
+}
+
+p{
+    color: black;
+    font-size: 1.4em;
+}
+
+h2{
+    color: black;
+}
+
+
+ul{
+    color: black;
+}
+
+.just{
+    width: 100px;
+}
+
+header > h1 {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+}
+
+header > p{
+    color: black;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.box1{
+    background-image: url("fotos/twdgate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 12px;
+    margin: 20px;
+    
+}
+
+.box1:hover{
+    background-image: url("fotos/sangrento.jpg");
+    width: 400px;
+    transition-duration: 0.8s;
+    transform: scale(1.07);
+    opacity: 100%;
+}
+
+.box2{
+    background-image: url("fotos/twdgate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 12px;
+    margin: 8px;
+
+}
+
+.box2:hover{
+    background-image: url("fotos/carol-the-walking-dead.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    transition-duration: 0.8s;
+    transform: scale(1.07);
+    opacity: 100%;
+
+}
+
+.box3{
+    background-image: url("fotos/twdgate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 12px;
+    margin: 8px;
+
+}
+
+.box3:hover{
+    background-image: url("fotos/daryyyyyylllllllllll.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    transition-duration: 0.8s;
+    transform: scale(1.07);
+    opacity: 100%;
+}
+
+.ft{
+    text-align: center;
+    color: white;
+    font-size: 2.4em;
+    background-color: black;
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.locals{
+    
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+   
+}
+
+.box4{
+    background-image: url("fotos/twdgate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 12px;
+    margin: 8px;
+}
+
+.box4:hover{
+    background-image: url("fotos/prision.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 550px;
+    transition-duration: 0.8s;
+    transform: scale(1.07);
+    opacity: 100%;
+
+}
+
+.box5{
+    background-image: url("fotos/twdgate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 12px;
+    margin: 8px;
+
+}
+
+.box5:hover{
+    background-image: url("fotos/farmer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 550px;
+    transition-duration: 0.8s;
+    transform: scale(1.07);
+    opacity: 100%;
+    
+
+}
+
+.box6{
+    background-image: url("fotos/twdgate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 12px;
+    margin: 8px;
+}
+
+.box6:hover{
+    background-image: url("fotos/georgia-atlanta-walking-dead-jackson-street-bridge-photo-by-andrea-david.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 550px;
+    transition-duration: 0.8s;
+    transform: scale(1.07);
+    opacity: 100%;
+}
+
+
+.tlocals{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    font-size: 2.4em;
+    width: 350px;
+    margin: auto;
+}
+
+.vid{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.twdd{
+    height: 500px;
+    border-radius: 4px;
+    padding: 20px;
+    
+}
+
+
+.rkpop{
+    display: flex;
+    text-align: center;
+    
+}
+.rickg{
+    height: 500px;
+    max-width: 320px;
+    
+}
+
+.textork{
+    display: block;
+    margin: auto;
+    
+}
+
+.containerfotos{
+    display: flex;
+    justify-content: baseline;
+    
+}
+
+.pfotos{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+
+.rk{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2.4em;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.final{
+    max-width: 100%;
+    min-width: 300px;
+}
+
+.fixedtitle{
+    background-color: white;
+    position: sticky;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+footer > p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+li{
+    font-size: 1.2em;
+}
+
+.rd{
+
+height: 400px;
+display: block;
+margin:auto;
+border-radius:5px;
+}
+
+
+
